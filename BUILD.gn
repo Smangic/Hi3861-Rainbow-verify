@@ -1,0 +1,13 @@
+static_library("Rainbow_app") {
+    
+    sources = [
+        "GFpow2.c",
+        "Compose2.c",
+        "md5.c",
+        "verify.c"
+    ]
+ 
+    include_dirs = [
+        "//utils/native/liteos/include"
+    ]
+}
